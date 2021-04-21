@@ -1,4 +1,4 @@
-package events;
+package src.events;
 
 /**
  * Repreesent a clock tick for people go away from the house. The object

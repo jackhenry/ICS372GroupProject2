@@ -1,4 +1,4 @@
-package events;
+package src.events;
 
 /**
  * Represent the time ran out event

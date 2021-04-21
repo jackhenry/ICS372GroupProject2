@@ -1,4 +1,4 @@
-package states;
+package src.states;
 
 import events.TimerRanOutEvent;
 import events.TimerTickedEvent;
@@ -48,7 +48,7 @@ public class ArmingState extends SecuritySystemState implements Notifiable {
 	@Override
 	public void leave() {
 		timer = null;
-		SecuritySystemContext.instance().showTimeLeft(0, "Away");
+		SecuritySystemContext.instance().showTimeLeft(0, "Away Armed");
 		SecuritySystemContext.instance().showAway();
 	}
 

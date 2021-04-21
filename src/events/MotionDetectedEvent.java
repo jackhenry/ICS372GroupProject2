@@ -1,4 +1,4 @@
-package events;
+package src.events;
 
 /**
  * Represent the motion detector alarm when it detect the motion.

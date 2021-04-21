@@ -1,4 +1,4 @@
-package states;
+package src.states;
 
 import events.ArmingRequestEvent;
 import events.StayRequestEvent;
@@ -33,6 +33,7 @@ public class DisarmedState extends SecuritySystemState {
 
 	@Override
 	public void handleEvent(StayRequestEvent event) {
+		// 
 		SecuritySystemContext.instance().changeState(StayState.instance());
 	}
 

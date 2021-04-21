@@ -1,4 +1,4 @@
-package states;
+package src.states;
 
 import events.NumericEnteredEvent;
 

@@ -1,4 +1,4 @@
-package events;
+package src.events;
 
 public class StayRequestEvent extends SecuritySystemEvent {
 	private static StayRequestEvent instance;

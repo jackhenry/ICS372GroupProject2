@@ -1,4 +1,4 @@
-package events;
+package src.events;
 
 /**
  * Represents the disarmed request, where the password is entered and then cancel is pressed

@@ -1,4 +1,4 @@
-package states;
+package src.states;
 
 import events.NumericEnteredEvent;
 import events.TimerRanOutEvent;
@@ -44,7 +44,7 @@ public class TriggeredState extends SecuritySystemState implements Notifiable {
 
 	@Override
 	public void enter() {
-		timer = new TimeTracker(10, this);
+		timer = new TimeTracker(15, this);
 		SecuritySystemContext.instance().showTriggered();
 		SecuritySystemContext.instance().showTimeLeft(timer.getRemainingTime(), "Breach");
 
